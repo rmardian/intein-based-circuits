@@ -137,6 +137,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# any datasets
+# custom
 datasets-backup/
 datasets--/
+env39/
