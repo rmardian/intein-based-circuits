@@ -1,0 +1,97 @@
+Well,Content,Group, Blank corrected based on Raw Data (485-12/520 3), Blank corrected based on Raw Data (485-12/520 2)
+A01,Sample X1,A,56,24
+A02,Sample X2,A,18,14
+A03,Sample X3,A,21,11
+A04,Sample X4,A,22,7
+A05,Sample X5,A,1,14
+A06,Sample X6,A,33,22
+A07,Sample X7,A,3,3
+A08,Sample X8,A,10,-3
+A09,Sample X9,A,-21,-13
+A10,Sample X10,A,-24,-4
+A11,Sample X11,A,-17,-2
+A12,Sample X12,A,-27,-3
+B01,Sample X13,A,32,27
+B02,Sample X14,A,20,20
+B03,Sample X15,A,-5,-2
+B04,Sample X16,A,-48,-29
+B05,Sample X17,A,-58,-28
+B06,Sample X18,A,108,55
+B07,Sample X19,A,-21,-8
+B08,Sample X20,A,-67,-41
+B09,Sample X21,A,-29,-14
+B10,Sample X22,A,-27,-15
+B11,Sample X23,A,-31,-23
+B12,Sample X24,A,-13,-25
+C01,Sample X25,A,20,12
+C02,Sample X26,A,153,74
+C03,Sample X27,A,246,130
+C04,Sample X28,A,388,197
+C05,Sample X29,A,511,254
+C06,Sample X30,A,583,291
+C07,Sample X31,A,-17,-12
+C08,Sample X32,A,-31,-10
+C09,Sample X33,A,-50,-17
+C10,Sample X34,A,-48,-19
+C11,Sample X35,A,-36,-12
+C12,Sample X36,A,-29,-19
+D01,Sample X37,A,48,26
+D02,Sample X38,A,1031,506
+D03,Sample X39,A,1468,738
+D04,Sample X40,A,1717,859
+D05,Sample X41,A,1782,907
+D06,Sample X42,A,1863,928
+D07,Sample X43,A,18,10
+D08,Sample X44,A,17,15
+D09,Sample X45,A,27,14
+D10,Sample X46,A,31,5
+D11,Sample X47,A,11,16
+D12,Sample X48,A,23,10
+E01,Sample X49,A,2404,1209
+E02,Sample X50,A,2451,1256
+E03,Sample X51,A,2385,1212
+E04,Sample X52,A,2372,1215
+E05,Sample X53,A,2396,1233
+E06,Sample X54,A,2312,1168
+E07,Sample X55,A,35,21
+E08,Sample X56,A,40,23
+E09,Sample X57,A,22,19
+E10,Sample X58,A,40,15
+E11,Sample X59,A,34,16
+E12,Sample X60,A,16,12
+F01,Sample X61,A,11,2
+F02,Sample X62,A,4,-3
+F03,Sample X63,A,3,8
+F04,Sample X64,A,8,12
+F05,Sample X65,A,406,202
+F06,Sample X66,A,732,372
+F07,Sample X67,A,14,8
+F08,Sample X68,A,32,23
+F09,Sample X69,A,9,19
+F10,Sample X70,A,32,8
+F11,Sample X71,A,51,23
+F12,Sample X72,A,37,13
+G01,Sample X73,A,13,10
+G02,Sample X74,A,1114,545
+G03,Sample X75,A,1208,602
+G04,Sample X76,A,1200,585
+G05,Sample X77,A,1173,581
+G06,Sample X78,A,1322,649
+G07,Sample X79,A,-1690,-872
+G08,Sample X80,A,-1690,-872
+G09,Sample X81,A,-1698,-879
+G10,Sample X82,A,-1703,-884
+G11,Sample X83,A,-1709,-879
+G12,Sample X84,A,-1718,-886
+H01,Blank B,A,,
+H02,Blank B,A,,
+H03,Blank B,A,,
+H04,Negative control N,A,46,20
+H05,Negative control N,A,-64,-30
+H06,Negative control N,A,-60,-34
+H07,Blank B,B,,
+H08,Blank B,B,,
+H09,Negative control N,B,77,46
+H10,Negative control N,B,86,53
+H11,Positive control P,B,2639,1359
+H12,Positive control P,B,2746,1408
