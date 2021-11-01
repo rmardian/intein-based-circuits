@@ -142,4 +142,5 @@ datasets-backup/
 datasets--/
 env39/
 inference_results/
+results/
 analysis/
