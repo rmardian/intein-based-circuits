@@ -143,4 +143,5 @@ datasets--/
 env39/
 inference_results/
 results/
-analysis/
+datasets/analysis/
+utils/
