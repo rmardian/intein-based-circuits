@@ -1,0 +1,9 @@
+LOCUS       pSalTTC                  116 bp ds-DNA     linear       30-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     promoter        1..116
+                     /label="rm-pSalTTC"
+ORIGIN
+        1 GGGGCCTCGC TTGGGTTATT GCTGGTGCCC GGCCGGGCGC AATATTCATG TTGATGATTT
+       61 ATTATATATC GAGTGGTGTA TTTATTTATA TTGTTTGCTC CGTTACCGTT ATTAAC
+//

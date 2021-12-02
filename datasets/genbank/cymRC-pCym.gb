@@ -1,0 +1,44 @@
+LOCUS       cymRC-pCym               860 bp ds-DNA     linear       22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     component       1..860
+                     /label="pCymRC-component"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     CDS             complement(1..612)
+                     /label="rm-CymRC-AM"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     RBS             complement(613..640)
+                     /label="rm-RBS-cym1"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     promoter        complement(641..695)
+                     /label="rm-pLacIQ"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     terminator      699..751
+                     /label="rm-L3S3P21"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     promoter        771..860
+                     /label="rm-pCymRC"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+ORIGIN
+        1 TCAACGTTTG AATTTTGCAT AACGTTCACG TGCAATTTCC AGGGTGCTAT TACGCACACG
+       61 TTCAAAACGT TCTTTATCTT TCTGCCACAG GCTACGAACT ACCAGACCAC GAACGCTGTT
+      121 AAAAATCAGC CACAGAATAT CTTCGGCATC ATCACGGCTC AGACCACGGC TCACCAGCAC
+      181 ACCCAGCCAC ATATCTTCAA CAACAAAACG ATTACGTTCA ACGGTACGCT GAATACCTTC
+      241 ACGCAGTGCC GGATCACGAT CTGCTGCAAC AATCAGATCC AGGCCGATGC TAAAATCATC
+      301 ATCCAGAAAA AATTCTGCTG CATCATCCAG CATCTGCTGA ATAACATCAT CTTCCGGTTT
+      361 CAGTTTTGCC AGACGTGCAC GGCTACGTTC GGTAATCTGC TCATACAGCC ATTCAAAGGT
+      421 TGCCAGCAGC AGTTCCAGTT TGGTCGGAAA ATGATGGCTC TGTGCACCAC GGCTAACACC
+      481 GGCTGCACCC GGAACATCTG CAATACGAAA ACCTGCATAA CCTTTTTCAC GCAGAACACC
+      541 CAGTGCTGCT GCAATCAGTT TACCCTGGGT TTCCATTGCA CGTTCTGCCT GGGTACGACG
+      601 TTTCGGGCTC ATATTCACCA CCCTGAATTG ACTCTCTTCC GGGCGCTATC ATGCCATACC
+      661 GCGAAAGGTT TTGCACCATT CGATGGCGCG CCGCCATTCC AATTATTGAA GGCCTCCCTA
+      721 ACGGGGGGCC TTTTTTTGTT TCTGGTCTCC CGCTTAACGA TCGTTGGCTG AACAAACAGA
+      781 CAATCTGGTC TGTTTGTATT ATGGAAAATT TTTCTGTATA ATAGATTCAA CAAACAGACA
+      841 ATCTGGTCTG TTTGTATTAT
+//

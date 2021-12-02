@@ -1,0 +1,51 @@
+LOCUS       e11-N-term              1032 bp ds-DNA     linear       30-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     component       1..1032
+                     /label="e11-N-terminal"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     misc_signal     17..27
+                     /label="rm-RBS33"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     CDS             34..375
+                     /label="rm-ECF11_987-N-term"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             34..375
+                     /label="Translation 34-375"
+     Inteins         376..384
+                     /label="rm-PhoRadA-N-junc"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     CDS             376..384
+                     /label="Translation 376-384"
+     Inteins         385..766
+                     /label="rm-PhoRadA-N-term"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     terminator      769..1023
+                     /label="rm-term-IOT"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+ORIGIN
+        1 ttctccatta ctagagtcac acaggactac tagatgatga gcgatagtcc gcagaaactg
+       61 ggtcgtaatg aatggaatgc atatatggat aaagtgaaag ccaaagatcg tgaagccttt
+      121 gcctttgtgt ttcgttttta tgcaccgaaa ctgaaacagt tcgcctataa acatgttggc
+      181 aatgaacagg ttgcaatgga aatggttcaa gaaaccatgg caaccgtttg gcagaaagca
+      241 catctgtatg atggtaaaaa aagcgcactg agcacctgga tttataccat tattcgtaac
+      301 ctgtgctttg acctgctgcg taaacagaaa ggtaaagaac tgcatattca cagcgacgat
+      361 atttggccga gcgaaagtgg taaatgcttt gctagggata ccgaagttta ttatgaaaac
+      421 gatacggtac cacacatgga atcaattgag gagatgtata gtaaatacgc ctcgatgaat
+      481 ggggaattac cattcgataa tggttacgca gttccattag ataatgtctt tgtgtacacg
+      541 ttggacatcg ctagtggtga aattaagaaa acgagggctt catacatcta tcgcgagaag
+      601 gttgagaagc tcattgagat aaaactatcc agtggatact cccttaaggt tactccctct
+      661 cacccagttc tcctctttag agatggcctg caatgggtcc ccgctgctga agttaaacct
+      721 ggagatgttg ttgttggtgt tagggaagag gtactgagaa gaTAATAACA GATAAAATAT
+      781 TTGCTCATGA GCCCGAAGTG GCGAGCCCGA TCTTCCCCAT CGGTGATGTC GGCGATATAG
+      841 GCGCCAGCAA CCGCACCTGT GGCGCCGGTG ATGCCGGCCA CGATGCGTCC GGCGTAGAGG
+      901 ATCTGCTCAT GTTTGACAGC TTATCATCGA TGCATAATGT GCCTGTCAAA TGGACGAAGC
+      961 AGGGATTCTG CAAACCCTAT GCTACTCCCT CGAGCCGTCA ATTGTCTGAT TCGTTACCAA
+     1021 TTAGGATCCT TA
+//

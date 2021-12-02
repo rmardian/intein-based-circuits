@@ -1,0 +1,45 @@
+LOCUS       araC-pBAD               1182 bp ds-DNA     linear       22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..1182
+                     /label="pBAD-component"
+                     /ApEinfo_revcolor=#faac61
+                     /ApEinfo_fwdcolor=#faac61
+     CDS             complement(1..930)
+                     /label="rm-araC"
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+     junction_seq    231..239
+                     /label="rm-NpuSsp-N-junc"
+                     /ApEinfo_revcolor=#faac61
+                     /ApEinfo_fwdcolor=#faac61
+     promoter        1023..1100
+                     /label="rm-piPC"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     promoter        1153..1182
+                     /label="rm-pBAD"
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+ORIGIN
+        1 ttatgacaac ttgacggcta catcattcac tttttcttca caaccggcac ggaactcgct
+       61 cgggctggcc ccggtgcatt ttttaaatac ccgcgagaaa tagagttgat cgtcaaaacc
+      121 aacattgcga ccgacggtgg cgataggcat ccgggtggtg ctcaaaagca gcttcgcctg
+      181 gctgatacgt tggtcctcgc gccagcttaa gacgctaatc cctaactgct ggcggaaaag
+      241 atgtgacaga cgcgacggcg acaagcaaac atgctgtgcg acgctggcga tatcaaaatt
+      301 gctgtctgcc aggtgatcgc tgatgtactg acaagcctcg cgtacccgat tatccatcgg
+      361 tggatggagc gactcgttaa tcgcttccat gcgccgcagt aacaattgct caagcagatt
+      421 tatcgccagc agctccgaat agcgcccttc cccttgcccg gcgttaatga tttgcccaaa
+      481 caggtcgctg aaatgcggct ggtgcgcttc atccgggcga aagaaccccg tattggcaaa
+      541 tattgacggc cagttaagcc attcatgcca gtaggcgcgc ggacgaaagt aaacccactg
+      601 gtgataccat tcgcgagcct ccggatgacg accgtagtga tgaatctctc ctggcgggaa
+      661 cagcaaaata tcacccggtc ggcaaacaaa ttctcgtccc tgatttttca ccaccccctg
+      721 accgcgaatg gtgagattga gaatataacc tttcattccc agcggtcggt cgataaaaaa
+      781 atcgagataa ccgttggcct caatcggcgt taaacccgcc accagatggg cattaaacga
+      841 gtatcccggc agcaggggat cattttgcgc ttcagccata cttttcatac tcccgccatt
+      901 cagagaagaa accaattgtc catattgcat cagacattgc cgtcactgcg tcttttactg
+      961 gctcttctcg ctaaccaaac cggtaacccc gcttattaaa agcattctgt aacaaagcgg
+     1021 gaccaaagcc atgacaaaaa cgcgtaacaa aagtgtctat aatcacggca gaaaagtcca
+     1081 cattgattat ttgcacggcg tcacactttg ctatgccata gcatttttat ccataagatt
+     1141 agcggatcct acctgacgct ttttatcgca actctctact gt
+//

@@ -1,0 +1,8 @@
+LOCUS       pLuxB                     55 bp ds-DNA     linear       30-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     promoter        1..55
+                     /label="rm-pLuxB"
+ORIGIN
+        1 ACCTGTAGGA TCGTACAGGT TTACGCAAGA AAATGGTTTG TTACAGTCGA ATAAA
+//

@@ -1,0 +1,34 @@
+LOCUS       e32-N-term               965 bp ds-DNA     linear       30-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     RBS             17..29
+                     /label="rm-RBS32"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_signal     348..356
+                     /label="AGG"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     terminator      702..956
+                     /label="rm-term-IOT"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+ORIGIN
+        1 TTCTCCATTA CTAGAGtcac acaggaaagT ACTAGATGAC CGAAATTCAT CTGCAAACCA
+       61 CCGAAAGCAC CAGCGTTAAT GATGGTCTGC CGCTGAATAT TGATTGGGAA GGTATTTTTC
+      121 GTGAACATGG TCGTCGTGTG CATCATTTTA TTCGTAAACG TGTTAGCCAT CGTGAAGATG
+      181 CCGAAGATCT GGAACAAATG ACCTGGCTGG AAGTTCTGCG TAATCGTGAT AAATTTGCCG
+      241 GTGCAAGCCG TCCGGAAACC TGGGTTTTTG GTATTGCACT GAATCTGGTG CGTAATCATT
+      301 TTCGTCTGCA AAGCGGTCGT CCGCGTTGTG ATGAACTGGA AGATGATgca ggtggttgtt
+      361 tttctggaga tacattagtc gctttaactg atggtcgtag cgttagcttt gagcaattgg
+      421 ttgaagaaga aaaacaagga aaacaaaact tttgttatac catccgccat gatggttcta
+      481 taggggttga aaaaatcatc aatgcccgca aaacaaaaac taatgcgaag gtaatcaagg
+      541 ttacgttgga caatggtgag tctattattt gcaccccgga tcataaattc atgttgcggg
+      601 atgggagcta caaatgtgcg atggatttaa ctctcgatga ttcgttaatg ccgttacacc
+      661 gaaaaatttc gactacggaa gattctggtc atgcgTAATA ACAGATAAAA TATTTGCTCA
+      721 TGAGCCCGAA GTGGCGAGCC CGATCTTCCC CATCGGTGAT GTCGGCGATA TAGGCGCCAG
+      781 CAACCGCACC TGTGGCGCCG GTGATGCCGG CCACGATGCG TCCGGCGTAG AGGATCTGCT
+      841 CATGTTTGAC AGCTTATCAT CGATGCATAA TGTGCCTGTC AAATGGACGA AGCAGGGATT
+      901 CTGCAAACCC TATGCTACTC CCTCGAGCCG TCAATTGTCT GATTCGTTAC CAATTAGGAT
+      961 CCTTA
+//

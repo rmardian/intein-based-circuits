@@ -1,0 +1,36 @@
+LOCUS       GFP-reporter             886 bp ds-DNA     linear       22-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     component       1..886
+                     /label="rm-RBS30-GFP-reporter"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     RBS             1..29
+                     /label="rm-RBS30"
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+     CDS             30..749
+                     /label="rm-GFP"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      758..886
+                     /label="rm-B0015"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+ORIGIN
+        1 TACTAGAGAT TAAAGAGGAG AAATACTAGA TGCGTAAAGG AGAAGAACTT TTCACTGGAG
+       61 TTGTCCCAAT TCTTGTTGAA TTAGATGGTG ATGTTAATGG GCACAAATTT TCTGTCAGTG
+      121 GAGAGGGTGA AGGTGATGCA ACATACGGAA AACTTACCCT TAAATTTATT TGCACTACTG
+      181 GAAAACTACC TGTTCCATGG CCAACACTTG TCACTACTTT CGGTTATGGT GTTCAATGCT
+      241 TTGCGAGATA CCCAGATCAT ATGAAACAGC ATGACTTTTT CAAGAGTGCC ATGCCCGAAG
+      301 GTTATGTACA GGAAAGAACT ATATTTTTCA AAGATGACGG GAACTACAAG ACACGTGCTG
+      361 AAGTCAAGTT TGAAGGTGAT ACCCTTGTTA ATAGAATCGA GTTAAAAGGT ATTGATTTTA
+      421 AAGAAGATGG AAACATTCTT GGACACAAAT TGGAATACAA CTATAACTCA CACAATGTAT
+      481 ACATCATGGC AGACAAACAA AAGAATGGAA TCAAAGTTAA CTTCAAAATT AGACACAACA
+      541 TTGAAGATGG AAGCGTTCAA CTAGCAGACC ATTATCAACA AAATACTCCA ATTGGCGATG
+      601 GCCCTGTCCT TTTACCAGAC AACCATTACC TGTCCACACA ATCTGCCCTT TCGAAAGATC
+      661 CCAACGAAAA GAGAGACCAC ATGGTCCTTC TTGAGTTTGT AACAGCTGCT GGGATTACAC
+      721 ATGGCATGGA TGAACTATAC AAATAATAAt actagagcca ggcatcaaat aaaacgaaag
+      781 gctcagtcga aagactgggc ctttcgtttt atctgttgtt tgtcggtgaa cgctctctac
+      841 tagagtcaca ctggctcacc ttcgggtggg cctttctgcg tttata
+//

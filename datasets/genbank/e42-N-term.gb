@@ -1,0 +1,40 @@
+LOCUS       e42-N-term              1136 bp ds-DNA     linear       30-NOV-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_signal     17..29
+                     /label="RBS32"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     RBS             17..29
+                     /label="rm-RBS32"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_signal     555..563
+                     /label="GGG"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     terminator      873..1127
+                     /label="rm-term-IOT"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+ORIGIN
+        1 TTCTCCATTA CTAGAGtcac acaggaaagT ACTAGATGGC AGCAACCGAT ATTAGCGCAC
+       61 TGCTGGATAC CCTGTGGCGT CGTGAAGCAA GCCGTATTAT TGGTGCACTG GCACGTCAGC
+      121 TGCGTGATGT TGGTCTGGCC GAAGAACTGG CACAGGATGC ACTGGTTGCA GCACTGGAAC
+      181 ATTGGCCTCG TAATGGTATT CCGGATAATC CGGCAGCATG GCTGATGACC ACCGCAAAAC
+      241 ATCGTGCAAT TGATCGTCTG CGTCATTATC AGCTGCAGCG TCGTAAACAG GATGCCCTGA
+      301 GCTTTGAAAT TGAACGTGAA CAGCAGGCAG CAAGCGCAGC ACAGCTGGTT GATCCGGATG
+      361 ATGATCTGGG TGATGATCAG CTGCGTCTGA TGTTTGTTGC ATGTCATCCG GCACTGGGCA
+      421 CCGATGCACG TGTTGCACTG ACCCTGCGTC TGCTGGGTGG TCTGAGTACC GATGCAATTG
+      481 CCCGTGCATT TCTGGTTCCG GAAGCAACCA TTGCACAGCG TATTGTTCGT GCAAAACGTA
+      541 CCCTGAGCGA TAAAggtgga ggttgttttg ttccgggtac actggtgaat accgaaaatg
+      601 gtctgaaaaa aatcgaagaa atcaaagtgg gcgacaaagt gtttagccat accggtaaac
+      661 tgcaagaagt tgttgatacc ctgatctttg atcgtgatga agagattatt agcatcaacg
+      721 gtatcgactg caccaaaaac catgagtttt atgtgatcga caaagaaaat gccaatcgcg
+      781 tgaacgaaga taacattcac ctgtttgcac gttgggttca tgccgaagaa ctggatatga
+      841 aaaaacatct gctgatcgag ctggaaTAAT AACAGATAAA ATATTTGCTC ATGAGCCCGA
+      901 AGTGGCGAGC CCGATCTTCC CCATCGGTGA TGTCGGCGAT ATAGGCGCCA GCAACCGCAC
+      961 CTGTGGCGCC GGTGATGCCG GCCACGATGC GTCCGGCGTA GAGGATCTGC TCATGTTTGA
+     1021 CAGCTTATCA TCGATGCATA ATGTGCCTGT CAAATGGACG AAGCAGGGAT TCTGCAAACC
+     1081 CTATGCTACT CCCTCGAGCC GTCAATTGTC TGATTCGTTA CCAATTAGGA TCCTTA
+//
