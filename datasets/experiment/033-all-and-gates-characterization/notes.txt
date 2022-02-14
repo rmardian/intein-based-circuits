@@ -1,0 +1,3 @@
+potential swapped plate 16 and plate 18
+potential swapped plate 17 and plate 19
+wrong and manually fixed control row for plate 2 - 6
