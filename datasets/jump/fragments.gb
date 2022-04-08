@@ -1,0 +1,680 @@
+LOCUS       B0015                    164 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     terminator      18..146
+                     /label="B0015"
+ORIGIN
+        1 CGTCTCGGTC TCAGCTTCCA GGCATCAAAT AAAACGAAAG GCTCAGTCGA AAGACTGGGC
+       61 CTTTCGTTTT ATCTGTTGTT TGTCGGTGAA CGCTCTCTAC TAGAGTCACA CTGGCTCACC
+      121 TTCGGGTGGG CCTTTCTGCG TTTATACGCT TGAGACCTGA GACG
+//
+LOCUS       E11-PhoRadA-C            467 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..46
+                     /label="(P005J-RM)_E11-PhoRadA-C.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGACAGATGTAACGATTAAAAGAATAATATC"
+     solubility_tag  18..35
+                     /label="solubility tag"
+     inteins         36..182
+                     /label="PhoRadA_C-term.S2"
+     ECFs            183..404
+                     /label="ECF11_987_C-term"
+     degradation_tag 405..443
+                     /label="ASV"
+     primer          complement(434..467)
+                     /label="(P006J-RM)_E11-PhoRadA-C.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTAGACGCTCGCG"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGACA GATGTAACGA TTAAAAGAAT AATATCCAAA GGAGAACTTG
+       61 AATTTCATGA GGTTTCCTCG GTAAGGATAA TAGATTACAA TAACTGGGTC TACGACCTTG
+      121 TAATTCCGGA AACCCACAAC TTCATAGCTC CCAATGGACT TGTTCTCCAT AATACGCAAT
+      181 TAGTTGATCA TTATAGTCCG GAACAGGATA TGCTGAAAGA ACAGGTGGTT AAATTTCTGG
+      241 ATATCCTGCC GAAAAATCAG CGTGATGTTC TGCAAGCAGT TTATCTGGAA GAACTGCCGC
+      301 ATCAGCAGGT TGCAGAACTG TTTGATATTC CGCTGGGCAC CGTTAAAAGC CGTCTGCGTC
+      361 TGGCAGTTGA AAAACTGCGT CATAGCATGC ATACCGAACA GCTGCGTCCA GCGGCAAACG
+      421 ATGAGAACTA CGCCGCGAGC GTCTAATAAG CTTTGAGACC TGAGACG
+//
+LOCUS       E11-PhoRadA-N            767 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P003J-RM)_E11-PhoRadA-N.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGATGAGCGATAGTCCGCA"
+     ECFs            15..356
+                     /label="ECF11_987_N-term"
+     inteins         357..743
+                     /label="PhoRadA_N-term.S2"
+     primer          complement(725..767)
+                     /label="(P004J-RM)_E11-PhoRadA-N.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATCTTCTCAGTACCTCTTCC"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGATG AGCGATAGTC CGCAGAAACT GGGTCGTAAT GAATGGAATG
+       61 CATATATGGA TAAAGTGAAA GCCAAAGATC GTGAAGCCTT TGCCTTTGTG TTTCGTTTTT
+      121 ATGCACCGAA ACTGAAACAG TTCGCCTATA AACATGTTGG CAATGAACAG GTTGCAATGG
+      181 AAATGGTTCA AGAAACCATG GCAACCGTTT GGCAGAAAGC ACATCTGTAT GATGGTAAAA
+      241 AAAGCGCACT GAGCACCTGG ATTTATACCA TTATTCGTAA CCTGTGCTTT GACCTGCTGC
+      301 GTAAACAGAA AGGTAAAGAA CTGCATATTC ACAGCGACGA TATTTGGCCG AGCGAAAGTG
+      361 GTAAATGCTT TGCTAGGGAT ACCGAAGTTT ATTATGAAAA CGATACGGTA CCACACATGG
+      421 AATCAATTGA GGAGATGTAT AGTAAATACG CCTCGATGAA TGGGGAATTA CCATTCGATA
+      481 ATGGTTACGC AGTTCCATTA GATAATGTCT TTGTGTACAC GTTGGACATC GCTAGTGGTG
+      541 AAATTAAGAA AACGAGGGCT TCATACATCT ATCGCGAGAA GGTTGAGAAG CTCATTGAGA
+      601 TAAAACTATC CAGTGGATAC TCCCTTAAGG TTACTCCCTC TCACCCAGTT CTCCTCTTTA
+      661 GAGATGGCCT GCAATGGGTC CCCGCTGCTG AAGTTAAACC TGGAGATGTT GTTGTTGGTG
+      721 TTAGGGAAGA GGTACTGAGA AGATAATAAG CTTTGAGACC TGAGACG
+//
+LOCUS       E20-gp411-C              443 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..40
+                     /label="(P011J-RM)_E20-gp411-C.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGCTGAAAAAAATCCTGAAAATCGA"
+     inteins         18..131
+                     /label="gp41-1_C-term.S2"
+     ECFs            132..380
+                     /label="ECF20_992_C-term"
+     degradation_tag 381..419
+                     /label="ASV"
+     primer          complement(410..443)
+                     /label="(P006J-RM)_E11-PhoRadA-C.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTAGACGCTCGCG"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGCTG AAAAAAATCC TGAAAATCGA GGAACTGGAT GAACGCGAAC
+       61 TGATTGATAT TGAAGTTAGC GGTAACCACC TGTTCTATGC CAATGATATT CTGACCCATA
+      121 ATTCTAGCAG TGCACCGGAT GAACAGCTGG AAGCAAGCGC ACAGAGCCGT CGTATGGCAC
+      181 AGGCACTGGA TCAGCTGCCG GATCGTCAGC GTGAAGCAAT TGTTCTGCAG TATTATCAAG
+      241 AACTGAGCAA TACCGAAGCA GCAGCACTGA TGCAAATTAG CGTTGAAGCC CTGGAAAGCC
+      301 TGCTGAGCCG TGCACGTCGT AATCTGCGTA GCCATCTGGC CGAAGCACCG GGTGCAGATC
+      361 TGAGCGGTCG TCGCAAACCG CGTCCAGCGG CAAACGATGA GAACTACGCC GCGAGCGTCT
+      421 AATAAGCTTT GAGACCTGAG ACG
+//
+LOCUS       E20-gp411-N              623 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..36
+                     /label="(P009J-RM)_E20-gp411-N.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGAATGAAACCGATCCTGATC"
+     ECFs            15..326
+                     /label="ECF20_992_N-term"
+     inteins         327..599
+                     /label="gp41-1_N-term.S2"
+     primer          complement(581..623)
+                     /label="(P010J-RM)_E20-gp411-N.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATTCTTTAACATACAGGCAC"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGAAT GAAACCGATC CTGATCTGGA ACTGCTGAAA CGTATTGGTA
+       61 ATAATGATGC ACAGGCCGTT AAAGAAATGG TTACCCGTAA ACTGCCTCGT CTGCTGGCAC
+      121 TGGCAAGTCG CCTGCTGGGT GATGCAGATG AAGCACGTGA TATTGCACAA GAAAGTTTTC
+      181 TGCGCATTTG GAAACAGGCA GCAAGCTGGC GTAGCGAACA GGCACGTTTT GATACCTGGC
+      241 TGCATCGTGT TGCACTGAAT CTGTGTTATG ATCGTCTGCG TCGTCGTAAA GAACATGTGC
+      301 CGGTTGATAG CGAACATGCC TGTGAATCAG GATACTGTCT GGATCTGAAA ACCCAGGTTC
+      361 AGACACCGCA GGGTATGAAA GAAATTTCAA ATATTCAGGT GGGTGATCTG GTTCTGAGCA
+      421 ATACCGGTTA TAATGAAGTG CTGAATGTGT TTCCGAAAAG CAAAAAAAAA AGCTATAAAA
+      481 TCACCCTGGA AGATGGCAAA GAAATCATTT GTAGCGAAGA ACACCTGTTT CCGACCCAGA
+      541 CCGGTGAAAT GAATATTAGC GGTGGTCTGA AAGAAGGTAT GTGCCTGTAT GTTAAAGAAT
+      601 AATAAGCTTT GAGACCTGAG ACG
+//
+LOCUS       E38-gp418-C              392 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..41
+                     /label="(P016J-RM)_E38-gp418-C.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGTGTGAAATCTTTGAAAACGAGATC"
+     inteins         15..158
+                     /label="gp41-8_C-term.S2"
+     ECFs            159..368
+                     /label="ECF38_1322_C-term"
+     primer          complement(354..392)
+                     /label="(P017J-RM)_E38-gp418-C.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATGCCGGTGCTTCCAT"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGTGT GAAATCTTTG AAAACGAGAT CGACTGGGAT GAAATTGCCA
+       61 GCATTGAATA TGTTGGTGTG GAAGAAACCA TCGATATTAA CGTGACCAAT GATCGTCTGT
+      121 TTTTTGCCAA TGGTATTCTG ACCCATAATA GTGCGGTTGA GGGTGCATAT GATCAGCTGG
+      181 AACGTGATAG CCTGATTAAA GCAATGAAAG GTCTGCAACG TCGTCAGCGT GAAGTTCTGG
+      241 TTCTGCGTTA TTTTGCAGAT ATGACCGAAG CACAGGTTGC AGAAACCCTG GGTATTAGCC
+      301 TGGGTAGCGT TAAAGCATAT GGTAGCCGTG GTATTGCAGC ACTGCGTGTT GCAATGGAAG
+      361 CACCGGCATA ATAAGCTTTG AGACCTGAGA CG
+//
+LOCUS       E38-gp418-N              638 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..33
+                     /label="(P014J-RM)_E38-gp418-N.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGCCTGCCGCACGTCCGG"
+     ECFs            15..338
+                     /label="ECF38_1322_N-term"
+     inteins         339..614
+                     /label="gp41-8_N-term.S2"
+     primer          complement(599..638)
+                     /label="(P015J-RM)_E38-gp418-N.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATTTTGCACGGCTACGC"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGCCT GCCGCACGTC CGGCACGTAT TACCAATCAG CGTGATGGTG
+       61 CAGAAGATGC AGCAGCAGGC ACCACCGTTG ATCATCTGAC CGAAACCTAT CGTGCACATT
+      121 ATCGTAGCCT GCTGGGTTTA GCCGCACTGC TGCTGGATGA TACCGCAAGC TGTGAAGATG
+      181 TTGTTCAAGA AGCATTTATT CGCGTTCATA GCGCACGTAA ACGTGTTCGT GATCCGGAAA
+      241 AAACCCTGGC ATATCTGCGT CAGACCGTTG TTAATCTGAG CCGTAGCGCA CTGCGTCGTC
+      301 GTATTCTGGG TCTGAAACTG CTGAGCAAAC CGATGCCGTT GAACAGGTGT CTGAGCCTGG
+      361 ATACCATGGT TGTTACCAAT GGTAAAGCCA TTGAAATTCG TGATGTGAAA GTTGGTGATT
+      421 GGCTGGAAAG CGAATGTGGT CCGGTTCAGG TTACCGAAGT TCTGCCGATT ATCAAACAGC
+      481 CGGTTTTTGA AATTGTGCTG AAAAGCGGCA AAAAAATCCG TGTTAGCGCC AATCATAAAT
+      541 TCCCGACCAA AGATGGTCTG AAAACCATTA ATAGCGGTCT GAAAGTGGGC GATTTTCTGC
+      601 GTAGCCGTGC AAAATAATAA GCTTTGAGAC CTGAGACG
+//
+LOCUS       E42-IMPDH1-C             917 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..45
+                     /label="(P022J-RM)_E42-IMPDH1-C.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGACAGATGTAACGATTAAAAAATTCAAAC"
+     solubility_tag  18..35
+                     /label="solubility tag"
+     inteins         36..161
+                     /label="IMPDH-1_C-term.S2"
+     ECFs            162..893
+                     /label="ECF42_4454_C-term"
+     primer          complement(882..917)
+                     /label="(P023J-RM)_E42-IMPDH1-C.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATGCAGGCAGACC"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGACA GATGTAACGA TTAAAAAATT CAAACTGAAA GAGATCACCA
+       61 GCATCGAAAC CAAACACTAT AAAGGCAAAG TTCATGATCT GACCGTGAAT CAGGATCATA
+      121 GCTATAACGT TCGTGGCACC GTTGTTCATA ATTCGATATG CCCGCGTGGT AGCGAACGTC
+      181 ATGCACGTCT GGCAAGCGTT CTGGAAGTTC TGTATCTGAT TTTTAACGAA GGCTATGCAG
+      241 CCAGTGATGG TGATGATGCC CAGCGTCCGG CTCTGTGTCA TGAAGCACTG AGCCTGATTG
+      301 GTGTTCTGGC AGAGCAGATG CCGACCGCAG CCGAAGTTCA TGCACTGCGT GCACTGATGG
+      361 CACTGCAGGC CAGCCGTAGC GCAGCCCGTA GTGATGCAAG TGGTGCACCG GTTCTGCTGC
+      421 TGGAACAGGA TCGTAGCCGT TGGCATCAGC CGCTGATTCA GCTGGGTCTG GCAGCCCTGG
+      481 CACGTGCACA GCAGCTGGGT GGCGGTGAAA GCAGCTATGC CCTGCAGGCA GCCATTGCAG
+      541 CATGTCATGT TACCGCAGCC CAGGCCCAGG ATACCGATTG GCCACGTATT GCAGCCCTGT
+      601 ATACCCGTCT GGCCCAGCGT GTTCCGAGTC CGGTTATTGC ACTGAATCGT GCAGTTGCGA
+      661 TTGCAATGGC AGAAGGTCCG GCAGCCGGTC TGGTTCTGGT TGAAGCCCTG CAGCAGGATA
+      721 GTGCACTGCG CCACTATCAT CTGCTGCCGA GCGTTCGTGG TGATCTGCTG TATAAACTGG
+      781 GTCGTTTTGA TGAAGCACGT GCAGATTTTC TGCATGCCGC AACCCTGGCA GGTAATGCAC
+      841 GTGATAAAAC CTTTCTGCTG ACCCGTGCAG ATGCATGTAG CGGTCTGCCT GCATAATAAG
+      901 CTTTGAGACC TGAGACG
+//
+LOCUS       E42-IMPDH1-N             869 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..35
+                     /label="(P020J-RM)_E42-IMPDH1-N.F"
+                     /note="sequence: CGTCTCGGTCTCAAATGGCAGCAACCGATATTAGC"
+     ECFs            15..533
+                     /label="ECF42_4454_N-term"
+     inteins         534..845
+                     /label="IMPDH-1_N-term.S2"
+     primer          complement(830..869)
+                     /label="(P021J-RM)_E42-IMPDH1-N.R"
+                     /note="sequence: CGTCTCAGGTCTCAAAGCTTATTATTCCAGCTCGATCAGC"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGGCA GCAACCGATA TTAGCGCACT GCTGGATACC CTGTGGCGTC
+       61 GTGAAGCAAG CCGTATTATT GGTGCACTGG CACGTCAGCT GCGTGATGTT GGTCTGGCCG
+      121 AAGAACTGGC ACAGGATGCA CTGGTTGCAG CACTGGAACA TTGGCCTCGT AATGGTATTC
+      181 CGGATAATCC GGCAGCATGG CTGATGACCA CCGCAAAACA TCGTGCAATT GATCGTCTGC
+      241 GTCATTATCA GCTGCAGCGT CGTAAACAGG ATGCCCTGAG CTTTGAAATT GAACGTGAAC
+      301 AGCAGGCAGC AAGCGCAGCA CAGCTGGTTG ATCCGGATGA TGATCTGGGT GATGATCAGC
+      361 TGCGTCTGAT GTTTGTTGCA TGTCATCCGG CACTGGGCAC CGATGCACGT GTTGCACTGA
+      421 CCCTGCGTCT GCTGGGTGGT CTGAGTACCG ATGCAATTGC CCGTGCATTT CTGGTTCCGG
+      481 AAGCAACCAT TGCACAGCGT ATTGTTCGTG CAAAACGTAC CCTGAGCGAT AAAGGTGGAG
+      541 GTTGTTTTGT TCCGGGTACA CTGGTGAATA CCGAAAATGG TCTGAAAAAA ATCGAAGAAA
+      601 TCAAAGTGGG CGACAAAGTG TTTAGCCATA CCGGTAAACT GCAAGAAGTT GTTGATACCC
+      661 TGATCTTTGA TCGTGATGAA GAGATTATTA GCATCAACGG TATCGACTGC ACCAAAAACC
+      721 ATGAGTTTTA TGTGATCGAC AAAGAAAATG CCAATCGCGT GAACGAAGAT AACATTCACC
+      781 TGTTTGCACG TTGGGTTCAT GCCGAAGAAC TGGATATGAA AAAACATCTG CTGATCGAGC
+      841 TGGAATAATA AGCTTTGAGA CCTGAGACG
+//
+LOCUS       GFPmut3b                 752 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     CDS             15..734
+                     /label="GFP"
+ORIGIN
+        1 CGTCTCGGTC TCAAATGCGT AAAGGAGAAG AACTTTTCAC TGGAGTTGTC CCAATTCTTG
+       61 TTGAATTAGA TGGTGATGTT AATGGGCACA AATTTTCTGT CAGTGGAGAG GGTGAAGGTG
+      121 ATGCAACATA CGGAAAACTT ACCCTTAAAT TTATTTGCAC TACTGGAAAA CTACCTGTTC
+      181 CATGGCCAAC ACTTGTCACT ACTTTCGGTT ATGGTGTTCA ATGCTTTGCG AGATACCCAG
+      241 ATCATATGAA ACAGCATGAC TTTTTCAAGA GTGCCATGCC CGAAGGTTAT GTACAGGAAA
+      301 GAACTATATT TTTCAAAGAT GACGGGAACT ACAAGACACG TGCTGAAGTC AAGTTTGAAG
+      361 GTGATACCCT TGTTAATAGA ATCGAGTTAA AAGGTATTGA TTTTAAAGAA GATGGAAACA
+      421 TTCTTGGACA CAAATTGGAA TACAACTATA ACTCACACAA TGTATACATC ATGGCAGACA
+      481 AACAAAAGAA TGGAATCAAA GTTAACTTCA AAATTAGACA CAACATTGAA GATGGAAGCG
+      541 TTCAACTAGC AGACCATTAT CAACAAAATA CTCCAATTGG CGATGGCCCT GTCCTTTTAC
+      601 CAGACAACCA TTACCTGTCC ACACAATCTG CCCTTTCGAA AGATCCCAAC GAAAAGAGAG
+      661 ACCACATGGT CCTTCTTGAG TTTGTAACAG CTGCTGGGAT TACACATGGC ATGGATGAAC
+      721 TATACAAATA ATAAGCTTTG AGACCTGAGA CG
+//
+LOCUS       J23101                    70 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGTTT ACAGCTAGCT CAGTCCTAGG TATTATGCTA GCTACTTGAG
+       61 ACCTGAGACG
+//
+LOCUS       P(11_LnE20)               96 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..33
+                     /label="(P001J-RM)_P(11_LnE20).F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCCTCCACACCGCTCG"
+     promoter        18..78
+                     /label="P(11_LnE20)"
+     primer          complement(56..96)
+                     /label="(P002J-RM)_P(11_LnE20).R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAAGAGGTGTTACGATAGATGGGCG"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGGCC TCCACACCGC TCGTCACATC CTGTGATCCA TTCCCCGCCC
+       61 ATCTATCGTA ACACCTCTTA CTTGAGACCT GAGACG
+//
+LOCUS       P(20_T5Ln17)              95 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..39
+                     /label="(P007J-RM)_P(20_T5Ln17).F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCGCGGATAAAAATTTCATTTG"
+     promoter        18..77
+                     /label="P(20_T5Ln17)"
+     primer          complement(59..95)
+                     /label="(P008J-RM)_P(20_T5Ln17).R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATGGGTTCAACGATAGATGG"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGGCG CGGATAAAAA TTTCATTTGC CCGCGACGGT TTTTCCGCCC
+       61 ATCTATCGTT GAACCCATAC TTGAGACCTG AGACG
+//
+LOCUS       P(38_up1322)             115 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..43
+                     /label="(P012J-RM)_P(38_up1322).F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGCAGTACAAAATTTTTTAGATGCGTTG"
+     promoter        18..97
+                     /label="P(38_up1322)"
+     primer          complement(81..115)
+                     /label="(P013J-RM)_P(38_up1322).R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAAATCGAGAACCTCTGCC"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGCAG TACAAAATTT TTTAGATGCG TTGTACAACC CTCACGGGGG
+       61 TGGACGTGTC CAACTGGCGT GGCAGAGGTT CTCGATTTAC TTGAGACCTG AGACG
+//
+LOCUS       P(42_nat+)               132 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..44
+                     /label="(P018J-RM)_P(42_nat+).F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGCAGTACAAAATTTTTTAGATGCGTTCG"
+     promoter        18..114
+                     /label="P(42_nat+)*"
+     primer          complement(99..132)
+                     /label="(P019J-RM)_P(42_nat+).R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTACGGTCGTGACGGTGAG"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGCAG TACAAAATTT TTTAGATGCG TTCGCTGTCG ATCCGGCCCG
+       61 TCGTCGTTCG TCGTACCCCC GAGAGCCCGC GAAAGGCGCT CACCGTCACG ACCGTACTTG
+      121 AGACCTGAGA CG
+//
+LOCUS       PBAD                     319 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..39
+                     /label="(P026J-RM)_pBAD.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGAGAAACCAATTGTCCATATTGC"
+     promoter        18..301
+                     /label="PBAD"
+     primer          complement(280..319)
+                     /label="(P027J-RM)_pBAD.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAATGGAGAAACAGTAGAGAGTTG"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGAGA AACCAATTGT CCATATTGCA TCAGACATTG CCGTCACTGC
+       61 GTCTTTTACT GGCTCTTCTC GCTAACCAAA CCGGTAACCC CGCTTATTAA AAGCATTCTG
+      121 TAACAAAGCG GGACCAAAGC CATGACAAAA ACGCGTAACA AAAGTGTCTA TAATCACGGC
+      181 AGAAAAGTCC ACATTGATTA TTTGCACGGC GTCACACTTT GCTATGCCAT AGCATTTTTA
+      241 TCCATAAGAT TAGCGGATCC TACCTGACGC TTTTTATCGC AACTCTCTAC TGTTTCTCCA
+      301 TTACTTGAGA CCTGAGACG
+//
+LOCUS       PBAD-RiboJ               418 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..325
+                     /label="PBAD"
+     insulator       326..400
+                     /label="RiboJ"
+     primer          complement(372..418)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgAGAA ACCAATTGTC CATATTGCAT
+       61 CAGACATTGC CGTCACTGCG TCTTTTACTG GCTCTTCTCG CTAACCAAAC CGGTAACCCC
+      121 GCTTATTAAA AGCATTCTGT AACAAAGCGG GACCAAAGCC ATGACAAAAA CGCGTAACAA
+      181 AAGTGTCTAT AATCACGGCA GAAAAGTCCA CATTGATTAT TTGCACGGCG TCACACTTTG
+      241 CTATGCCATA GCATTTTTAT CCATAAGATT AGCGGATCCT ACCTGACGCT TTTTATCGCA
+      301 ACTCTCTACT GTTTCTCCAT ACCCGAGCTG TCACCGGATG TGCTTTCCGG TCTGATGAGT
+      361 CCGTGAGGAC GAAACAGCCT CTACAAATAA TTTTGTTTAA TACTTGAGAC CTGAGACG
+//
+LOCUS       PBetI-RiboJ              192 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..99
+                     /label="PBetI"
+     insulator       100..174
+                     /label="RiboJ"
+     primer          complement(146..192)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgAGCG CGGGTGAGAG GGATTCGTTA
+       61 CCAATAGACA ATTGATTGGA CGTTCAATAT AATGCTAGCA GCTGTCACCG GATGTGCTTT
+      121 CCGGTCTGAT GAGTCCGTGA GGACGAAACA GCCTCTACAA ATAATTTTGT TTAATACTTG
+      181 AGACCTGAGA CG
+//
+LOCUS       PCin                     261 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P032J-RM)_pCin.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGCCCTTTGTGCGTCCAAA"
+     promoter        18..243
+                     /label="pCin"
+     primer          complement(224..261)
+                     /label="(P033J-RM)_pCin.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAAGCGTTTTCAAGTTCGTGGA"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGCCC TTTGTGCGTC CAAACGGACG CACGGCGCTC TAAAGCGGGT
+       61 CGCGATCTTT CAGATTCGCT CCTCGCGCTT TCAGTCTTTG TTTTGGCGCA TGTCGTTATC
+      121 GCAAAACCGC TGCACACTTT TGCGCGACAT GCTCTGATCC CCCTCATCTG GGGGGGCCTA
+      181 TCTGAGGGAA TTTCCGATCC GGCTCGCCTG AACCATTCTG CTTTCCACGA ACTTGAAAAC
+      241 GCTTACTTGA GACCTGAGAC G
+//
+LOCUS       PCin-RiboJ               355 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..262
+                     /label="Pcin"
+     insulator       263..337
+                     /label="RiboJ"
+     primer          complement(309..355)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgCCCT TTGTGCGTCC AAACGGACGC
+       61 ACGGCGCTCT AAAGCGGGTC GCGATCTTTC AGATTCGCTC CTCGCGCTTT CAGTCTTTGT
+      121 TTTGGCGCAT GTCGTTATCG CAAAACCGCT GCACACTTTT GCGCGACATG CTCTGATCCC
+      181 CCTCATCTGG GGGGGCCTAT CTGAGGGAAT TTCCGATCCG GCTCGCCTGA ACCATTCTGC
+      241 TTTCCACGAA CTTGAAAACG CTAGCTGTCA CCGGATGTGC TTTCCGGTCT GATGAGTCCG
+      301 TGAGGACGAA ACAGCCTCTA CAAATAATTT TGTTTAATAC TTGAGACCTG AGACG
+//
+LOCUS       pCymRC                   125 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..37
+                     /label="(P028J-RM)_pCymRC.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGAACAAACAGACAATCTGGTC"
+     promoter        18..107
+                     /label="PCymRC"
+     primer          complement(84..125)
+                     /label="(P029J-RM)_pCymRC.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAATAATACAAACAGACCAGATTGTC"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGAAC AAACAGACAA TCTGGTCTGT TTGTATTATG GAAAATTTTT
+       61 CTGTATAATA GATTCAACAA ACAGACAATC TGGTCTGTTT GTATTATTAC TTGAGACCTG
+      121 AGACG
+//
+LOCUS       PCymRC-RiboJ             219 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     spacer          18..36
+                     /label="terminator-promoter-spacer"
+     promoter        37..126
+                     /label="PCymRC"
+     insulator       127..201
+                     /label="RiboJ"
+     primer          complement(173..219)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgAACA AACAGACAAT CTGGTCTGTT
+       61 TGTATTATGG AAAATTTTTC TGTATAATAG ATTCAACAAA CAGACAATCT GGTCTGTTTG
+      121 TATTATAGCT GTCACCGGAT GTGCTTTCCG GTCTGATGAG TCCGTGAGGA CGAAACAGCC
+      181 TCTACAAATA ATTTTGTTTA ATACTTGAGA CCTGAGACG
+//
+LOCUS       PLuxB                     90 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     promoter        18..72
+                     /label="rm-pLuxB"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGACC TGTAGGATCG TACAGGTTTA CGCAAGAAAA TGGTTTGTTA
+       61 CAGTCGAATA AATACTTGAG ACCTGAGACG
+//
+LOCUS       PLuxB-RiboJ              184 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..91
+                     /label="PluxB"
+     insulator       92..166
+                     /label="RiboJ"
+     primer          complement(138..184)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgACCT GTAGGATCGT ACAGGTTTAC
+       61 GCAAGAAAAT GGTTTGTTAC AGTCGAATAA AAGCTGTCAC CGGATGTGCT TTCCGGTCTG
+      121 ATGAGTCCGT GAGGACGAAA CAGCCTCTAC AAATAATTTT GTTTAATACT TGAGACCTGA
+      181 GACG
+//
+LOCUS       PPhlF                    101 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    18..83
+                     /label="PphlF"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGCGA CGTACGGTGG AATCTGATTC GTTACCAATT GACATGATAC
+       61 GAAACGTACC GTATCGTTAA GGTTACTTGA GACCTGAGAC G
+//
+LOCUS       PPhlF-RiboJ              195 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..102
+                     /label="PphlF"
+     ribozyme        103..177
+                     /label="RiboJ"
+     primer          complement(149..195)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgCGAC GTACGGTGGA ATCTGATTCG
+       61 TTACCAATTG ACATGATACG AAACGTACCG TATCGTTAAG GTAGCTGTCA CCGGATGTGC
+      121 TTTCCGGTCT GATGAGTCCG TGAGGACGAA ACAGCCTCTA CAAATAATTT TGTTTAATAC
+      181 TTGAGACCTG AGACG
+//
+LOCUS       PSalTTC                  151 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..36
+                     /label="(P030J-RM)_pSalTTC.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGGGGCCTCGCTTGGGTTAT"
+     promoter        18..133
+                     /label="rm-pSalTTC"
+     primer          complement(110..151)
+                     /label="(P031J-RM)_pSalTTC.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTAGTTAATAACGGTAACGGAGCAAAC"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGGGG GCCTCGCTTG GGTTATTGCT GGTGCCCGGC CGGGCGCAAT
+       61 ATTCATGTTG ATGATTTATT ATATATCGAG TGGTGTATTT ATTTATATTG TTTGCTCCGT
+      121 TACCGTTATT AACTACTTGA GACCTGAGAC G
+//
+LOCUS       PSalTTC-RiboJ            245 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..152
+                     /label="PsalTTC"
+     insulator       153..227
+                     /label="RiboJ"
+     primer          complement(199..245)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgGGGG CCTCGCTTGG GTTATTGCTG
+       61 GTGCCCGGCC GGGCGCAATA TTCATGTTGA TGATTTATTA TATATCGAGT GGTGTATTTA
+      121 TTTATATTGT TTGCTCCGTT ACCGTTATTA ACAGCTGTCA CCGGATGTGC TTTCCGGTCT
+      181 GATGAGTCCG TGAGGACGAA ACAGCCTCTA CAAATAATTT TGTTTAATAC TTGAGACCTG
+      241 AGACG
+//
+LOCUS       PTac-RiboJ               185 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..92
+                     /label="PTac"
+     insulator       93..167
+                     /label="RiboJ"
+     primer          complement(139..185)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgTGTT GACAATTAAT CATCGGCTCG
+       61 TATAATGTGT GGAATTGTGA GCGCTCACAA TTAGCTGTCA CCGGATGTGC TTTCCGGTCT
+      121 GATGAGTCCG TGAGGACGAA ACAGCCTCTA CAAATAATTT TGTTTAATAC TTGAGACCTG
+      181 AGACG
+//
+LOCUS       PTet-RiboJ               205 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..112
+                     /label="PTet*"
+     insulator       113..187
+                     /label="RiboJ"
+     primer          complement(159..205)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgTTTT CAGCAGGACG CACTGACCTC
+       61 CCTATCAGTG ATAGAGATTG ACATCCCTAT CAGTGATAGA GATACTGAGC ACAGCTGTCA
+      121 CCGGATGTGC TTTCCGGTCT GATGAGTCCG TGAGGACGAA ACAGCCTCTA CAAATAATTT
+      181 TGTTTAATAC TTGAGACCTG AGACG
+//
+LOCUS       PTtg-RiboJ               180 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..87
+                     /label="PTtg"
+     insulator       88..162
+                     /label="RiboJ"
+     primer          complement(134..180)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgCACC CAGCAGTATT TACAAACAAC
+       61 CATGAATGTA AGTATATTCC TTAGCAAAGC TGTCACCGGA TGTGCTTTCC GGTCTGATGA
+      121 GTCCGTGAGG ACGAAACAGC CTCTACAAAT AATTTTGTTT AATACTTGAG ACCTGAGACG
+//
+LOCUS       PVanCC                    85 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGATT GGATCCAATT GACAGCTAGC TCAGTCCTAG GTACCATTGG
+       61 ATCCAATTAC TTGAGACCTG AGACG
+//
+LOCUS       PVanCC-RiboJ             179 bp ds-DNA     linear       20-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..34
+                     /label="(P046J-RM)_TerProSpacer.F"
+                     /note="sequence: CGTCTCGGTCTCAGGAGGCTTAACGATCGTTGGC"
+     misc_feature    18..36
+                     /label="terminator promoter-spacer"
+     misc_feature    37..86
+                     /label="PvanCC"
+     insulator       87..161
+                     /label="RiboJ"
+     primer          complement(133..179)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCAGGAGgct taacgatcgt tggctgATTG GATCCAATTG ACAGCTAGCT
+       61 CAGTCCTAGG TACCATTGGA TCCAATAGCT GTCACCGGAT GTGCTTTCCG GTCTGATGAG
+      121 TCCGTGAGGA CGAAACAGCC TCTACAAATA ATTTTGTTTA ATACTTGAGA CCTGAGACG
+//
+LOCUS       RBS30                     50 bp ds-DNA     linear       13-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     RBS             18..32
+                     /label="RBS30"
+ORIGIN
+        1 CGTCTCGGTC TCATACTATT AAAGAGGAGA AAAATGTGAG ACCTGAGACG
+//
+LOCUS       RBS32                     48 bp ds-DNA     linear       08-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     RBS             18..30
+                     /label="RBS32"
+ORIGIN
+        1 CGTCTCGGTC TCATACTTCA CACAGGAAAG AATGTGAGAC CTGAGACG
+//
+LOCUS       RBS33                     46 bp ds-DNA     linear       08-FEB-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     RBS             18..28
+                     /label="RBS33"
+ORIGIN
+        1 CGTCTCGGTC TCATACTTCA CACAGGACAA TGTGAGACCT GAGACG
+//
+LOCUS       RiboJ                    110 bp ds-DNA     linear       07-MAR-2022
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..33
+                     /label="(P024J-RM)_RiboJ.F"
+                     /note="sequence: CGTCTCGGTCTCATGACAGCTGTCACCGGATGT"
+     insulator       18..92
+                     /label="RiboJ"
+     primer          complement(64..110)
+                     /label="(P025J-RM)_RiboJ.R"
+                     /note="sequence: CGTCTCAGGTCTCAAGTATTAAACAAAATTATTTGTAGAGGCTGTTT"
+ORIGIN
+        1 CGTCTCGGTC TCATGACAGC TGTCACCGGA TGTGCTTTCC GGTCTGATGA GTCCGTGAGG
+       61 ACGAAACAGC CTCTACAAAT AATTTTGTTT AATACTTGAG ACCTGAGACG
+//
