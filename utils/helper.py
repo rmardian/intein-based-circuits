@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import string
 
 ### BLANK-CORRECTED AND NEGATIVE-CONTROL-CORRECTED DATA ###
 
@@ -18,7 +19,24 @@ def get_neg_ctrl_corrected(fluo, od, neg_ctrl_id='negative-control'):
 
 ### DATA PREPROCESSING ###
 
-def generate_map(dictionary):
+def setup_header(raw_data, start_idx=3):
+
+    '''check if the data has a single header (i.e. single measurement)'''
+    #if the first row first col starts with a well, then it is a single measurement data
+    if len(list(filter(raw_data.iloc[0, 0].startswith, list(string.ascii_uppercase)[:8])))==0:
+        raw_data.columns = raw_data.columns.tolist()[:start_idx] + raw_data.iloc[0].tolist()[start_idx:]
+        raw_data.drop(0, inplace=True)
+    return raw_data
+
+def read_map(plate_map):
+    '''serialize a map file into a dataframe'''
+    
+    plate_map = plate_map.melt(id_vars=['group'])
+    plate_map['variable'] = plate_map['variable'].astype(int)
+    plate_map['Well'] = plate_map['group'] + plate_map['variable'].apply(lambda x: '{:02d}'.format(x))
+    return plate_map[['Well', 'value']].dropna()
+
+def read_dict(dictionary):
     
     sample_map = pd.Series(dictionary['short_name'].values, index=dictionary['id']).to_dict()
     sample_map.update({
