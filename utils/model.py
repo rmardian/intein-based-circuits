@@ -2,14 +2,47 @@ from scipy.optimize import curve_fit
 import numpy as np
 
 ### mechanistic model ###
-def hill_activation(x, K, n, ymin, ymax):
-    
-    return ymin + (ymax - ymin) * (x**n / (K**n + x**n))
 
-def hill_activation_and(x, K1, K2, n1, n2, ymin1, ymin2, ymax1, ymax2):
-    
+def hill_activation(x, K, n, eps):
+
+    K_, n_, eps_ = 10**K, 10**n, 10**eps
+    return ((x**n_ + (eps_*(K_**n_))) / (K_**n_ + x**n_))
+
+def hill_activation_single(x, ag, K, n, eps):
+
+    return 10**ag * hill_activation(x, K, n, eps)
+
+def hill_activation_and(x, ag, K, n, eps, K1, n1, eps1, K2, n2, eps2):
+
     x1, x2 = x
-    return hill_activation(x1, K1, n1, ymin1, ymax1) * hill_activation(x2, K2, n2, ymin2, ymax2)
+    return 10**ag * hill_activation(hill_activation(x1, K1, n1, eps1)*hill_activation(x2, K2, n2, eps2), K, n, eps)
+
+def hill_activation_and_fixed(x, ag, K, n, eps):
+
+    K1, n1, eps1, K2, n2, eps2 = -0.06, 0.15, -2.06, 0.91, 0.29, -3.11
+    x1, x2 = x
+    return 10**ag * hill_activation(hill_activation(x1, K1, n1, eps1)*hill_activation(x2, K2, n2, eps2), K, n, eps)
+
+def inverse_hill(rpu, ag, K, n, eps):
+    
+    ag_, K_, n_, eps_ = 10**ag, 10**K, 10**n, 10**eps
+    #return (((rpu * (K_**n_)) - (ag_ * eps_ * (K_**n_))) / (ag_ - rpu))**(1/n_)
+    return (((rpu - (ag_ * eps_)) * (K_**n_))/(ag_ - rpu))**(1/n_)
+
+### version 0.4
+
+def hill_activation_and_4(x, ag, K, n, eps, an, ac, dn, aan, ddn, dc, K1, n1, eps1, K2, n2, eps2):
+
+    x1, x2 = x
+    b = (ac * hill_activation(x2, K2, n2, eps2)) - (an * hill_activation(x1, K1, n1, eps1)) + ddn
+    en1 =  -1 * b + (np.sqrt(((np.power(b, 2) - (4 * dn * aan))/(2 * dn))))
+    ec1 =  (1*dc) * ((ac * hill_activation(x2, K2, n2, eps2)) - (an * hill_activation(x1, K1, n1, eps1)) + (dn * en1))
+
+    en2 =  -1 * b - (np.sqrt(((np.power(b, 2) - (4 * dn * aan))/(2 * dn))))
+    ec2 =  (1*dc) * ((ac * hill_activation(x2, K2, n2, eps2)) - (an * hill_activation(x1, K1, n1, eps1)) + (dn * en2))
+
+    #return 10**ag * hill_activation((en2 * ec2), K, n, eps)
+    return 10**ag * hill_activation((en1 * ec1), K, n, eps)
 
 ### optimization
 
