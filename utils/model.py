@@ -3,6 +3,21 @@ import numpy as np
 
 ### mechanistic model ###
 
+def hill_activation_basic(x, a, b, K, n):
+
+    a_, b_, K_, n_ = 10**a, 10**b, 10**K, 10**n
+    return b_ + (a_ * ((x**n_) / (K_**n_ + x**n_)))
+
+def hill_activation_and_basic(x, ae, be, Ke, ne, theta, a1, b1, K1, n1, a2, b2, K2, n2):
+
+    x1, x2 = x
+    h1 = hill_activation_basic(x1, a1, b1, K1, n1)
+    h2 = hill_activation_basic(x2, a2, b2, K2, n2)
+    return hill_activation_basic(theta*(h1)*(h2), ae, be, Ke, ne)
+
+
+##########################
+
 def hill_activation(x, K, n, eps):
 
     K_, n_, eps_ = 10**K, 10**n, 10**eps
@@ -16,6 +31,18 @@ def hill_activation_and(x, ag, K, n, eps, K1, n1, eps1, K2, n2, eps2):
 
     x1, x2 = x
     return 10**ag * hill_activation(hill_activation(x1, K1, n1, eps1)*hill_activation(x2, K2, n2, eps2), K, n, eps)
+
+def hill_activation_and_simple(x, ag, K, n, eps, e, ag1, K1, n1, eps1, ag2, K2, n2, eps2):
+
+    x1, x2 = x
+    h1 = 10**ag1 * hill_activation(x1, K1, n1, eps1)
+    h2 = 10**ag2 * hill_activation(x2, K2, n2, eps2)
+    return 10**ag * hill_activation(e*(h1)*(h2), K, n, eps)
+
+def hill_activation_and_fixing(x, ag, K, n, eps, e):
+
+    ag1, K1, n1, eps1, ag2, K2, n2, eps2 = 0.52, -0.06, 0.15, -2.07, -0.32, 0.91, 0.29, -3.11
+    return hill_activation_and_simple(x, ag, K, n, eps, e, ag1, K1, n1, eps1, ag2, K2, n2, eps2)
 
 def hill_activation_and_fixed(x, ag, K, n, eps):
 
